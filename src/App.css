@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +17,76 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherApp h1 {
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 50px;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.footer {
+  font-size: 15px;
+  margin-top: 60px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+.weatherApp {
+  font-size: 20px;
+}
+
+.formCity {
+  font-size: 17px;
+}
+
+.cities {
+  margin-top: 20px;
+}
+
+button {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 15px;
+  margin: 20px;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 15px;
+  margin: 20px;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+button:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+s .formCity {
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+.cityName {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: lightblue;
 }
