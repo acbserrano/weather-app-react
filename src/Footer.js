@@ -1,15 +1,14 @@
 import React from "react";
 
-import "./App.css";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="text-center footer">
       <a type="link" href="/">
-        Open-source code
+        Open-source
       </a>{" "}
-      <br />
-      by Ana Góis
+      code by Ana Góis
     </div>
   );
 }

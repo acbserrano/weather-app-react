@@ -1,0 +1,43 @@
+.Weather {
+  background-color: rgb(226, 235, 235);
+  border-radius: 150px;
+}
+
+.Weather .gridInfo {
+  padding: 100px 0 60px 0;
+}
+
+.Weather h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.Weather h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Weather ul {
+  padding: 0px;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style: none;
+}
+
+.search-engine {
+  margin: 100px 0 0 130px;
+}
+
+.form-control::placeholder {
+  font-style: italic;
+  font-size: 14px;
+  color: lightgray;
+}
+
+.search-button {
+  text-align: left;
+}
