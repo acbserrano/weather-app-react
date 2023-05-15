@@ -1,13 +1,12 @@
 .WeatherForecast {
   text-align: center;
-  padding-bottom: 20px;
-  font-size: 14px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+  max-width: 450px;
 }
 
 .WeatherForecastTemperature-min {
   opacity: 0.5;
-}
-
-.WeatherForecastTemperature {
-  font-size: 14px;
 }

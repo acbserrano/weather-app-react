@@ -1,11 +1,26 @@
 .Weather {
-  background-color: rgb(226, 235, 235);
-  border-radius: 150px;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+
+  border-radius: 200px;
 }
 
 .WeatherForecast-layout {
-  background-color: rgb(226, 235, 235);
-  border-radius: 150px;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  border-radius: 200px;
   margin-top: 50px;
   padding: 30px 0 0px 0;
 }
@@ -40,14 +55,24 @@
   margin: 100px 0 40px 130px;
 }
 
+.form-control {
+  border-color: #d2e3ea !important;
+}
+
 .form-control::placeholder {
   font-style: italic;
   font-size: 14px;
-  color: lightgray;
+  color: #97bad7;
+  opacity: 0.5;
+  max-width: 600px;
 }
 
 .search-button {
   text-align: left;
+  color: #97bad7;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .Weather .unit {

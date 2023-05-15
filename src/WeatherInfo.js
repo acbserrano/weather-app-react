@@ -4,7 +4,6 @@ import "./WeatherApp.css";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
-import WeatherForecast from "./WeatherForecast";
 
 export default function WeatherInfo(props) {
   return (
@@ -43,9 +42,6 @@ export default function WeatherInfo(props) {
             </ul>
           </div>
         </div>
-      </div>
-      <div className="WeatherForecast-layout">
-        <WeatherForecast />
       </div>
     </div>
   );
