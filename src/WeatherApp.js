@@ -6,8 +6,6 @@ import Footer from "./Footer";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 
-import { Audio } from "react-loader-spinner";
-
 export default function WeatherApp(props) {
   let [weatherData, setWeatherData] = useState(false);
   let [city, setCity] = useState(props.defaultCity);
@@ -76,16 +74,6 @@ export default function WeatherApp(props) {
   } else {
     search();
 
-    return (
-      <Audio
-        height="30"
-        width="30"
-        radius="9"
-        color="#000350"
-        ariaLabel="loading"
-        wrapperStyle
-        wrapperClass
-      />
-    );
+    return null;
   }
 }
